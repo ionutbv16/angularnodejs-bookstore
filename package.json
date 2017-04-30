@@ -1,0 +1,47 @@
+{
+  "name": "candidate-exercise",
+  "description": "Let's build an online bookshop",
+  "homepage": "https://github.com/vendigo-group/candidate-exercise#readme",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vendigo Finance Group Limited",
+  "contributors": [
+    "Antony Jones <antony.jones@vendigo.com>",
+    "Sid Wood <sid.wood@vendigo.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vendigo-group/candidate-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vendigo-group/candidate-exercise/issues"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "pairing",
+    "test"
+  ],
+  "scripts": {
+    "lint": "snazzy",
+    "start": "nodemon .",
+    "test": "mocha src/**/**.test.js"
+  },
+  "dependencies": {
+    "boom": "^4.2.0",
+    "fs": "0.0.1-security",
+    "hapi": "^16.1.1",
+    "inert": "^4.2.0",
+    "joi": "^10.0.5",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "snazzy": "^6.0.0",
+    "standard": "^8.6.0"
+  }
+}
